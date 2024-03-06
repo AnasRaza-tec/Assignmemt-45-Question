@@ -1,3 +1,5 @@
-let transpotation : string []= ["Mersedec G", "toyota Supera"];
-
-transpotation.map((items)=> console.log(`I would like to own a ${items}`));
+let guest : string []= ["janan", "zain","saad","haris"];
+for(let R=0; R<guest.length; R ++){
+console.log (`Asslamualikum ` + guest[R] + ` are you invite diner\n Thanks You \n`)
+}
+export{guest}
