@@ -1,2 +1,6 @@
-let FavoriteNumber : number = 7 ;
-console.log(`My Favorite Number ${FavoriteNumber}`);
+// Exercise on 8
+// Name : Muhammad Anas Raza
+// Date 18.2.2024
+let Raza : string = "I am Best Programer For Every Time";
+console.log(`${Raza}`);
+
