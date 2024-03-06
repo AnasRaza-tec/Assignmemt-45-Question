@@ -1,5 +1,7 @@
-let guest : string []= ["janan", "zain","saad","haris"];
-for(let R=0; R<guest.length; R ++){
-console.log (`Asslamualikum ` + guest[R] + ` are you invite diner\n Thanks You \n`)
-}
-export{guest}
+ let guestarr : string[] = ["janan","zain","saad","haris"];
+ let haris : string = "haris"
+console.log(`${haris} can not be invited to diner`);
+ let jola : string = "Imran"
+guestarr [guestarr.indexOf(haris)] = jola ; 
+console.log(guestarr); 
+guestarr.map((items) => console.log(`Dear ${items} , can be invite to diner`));
