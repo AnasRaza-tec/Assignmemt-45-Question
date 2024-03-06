@@ -1,4 +1,5 @@
-let Names : string  [] = ["janan", "zain", "saad"];
-console.log(Names[0]);
-console.log(Names[1]);
-console.log(Names[2]);
+let Name : string [] = ["janan","zain","saad"];
+let massege : string = "brave man";
+console.log(Name [0]+" "+ massege);
+console.log(Name [1]+" "+ massege);
+console.log(Name [2]+" "+ massege);
