@@ -1,4 +1,4 @@
-let personName : string = "\n\t anasraza \t\n"; 
-console.log( personName);
-let stripped : string = personName.trim();
-console.log(stripped);
+console.log(6+2);
+console.log(20-12);
+console.log(2*4);
+console.log(32/4);
