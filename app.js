@@ -1,17 +1,16 @@
-var guestarr = ["janan", "zain", "saad", "haris"];
-var haris = ("haris");
-var jola = ("jola");
-guestarr[guestarr.indexOf(haris)] = jola;
-//console.log(guestarr);
-//guestarr.map((items) => console.log(`Dear ${items}, I found a bigger dinner table so i am invited more peples.`));
-// Part Tow
-var newone = ("inram");
-guestarr.unshift(newone);
-//console.log(guestarr);
-var secondone = ("arman");
-var middleIndex = guestarr.length / 2;
-guestarr.splice(middleIndex, 0, secondone);
-//console.log(guestarr);
-guestarr.push("anas");
-console.log(guestarr);
-//guestarr.map((items) => console.log(`Dear ${items}, I found a bigger dinner table so i am invited more peples.`));
+var guest = ["janan", "zain", "saad", "hair"];
+var newguest = ("jola");
+var notattandguest = ("saad");
+guest.unshift("imran", "arman");
+guest[4] = newguest;
+console.log("mr ".concat(notattandguest, " sorry you not attend diner "));
+console.log("Sorry i am invited 2 people.");
+while (guest.length > 2) {
+    var remove_guest = guest.pop();
+    console.log("Assamualikum ".concat(remove_guest, " do you not invited"));
+}
+for (var R = 0; R < guest.length; R++) {
+    console.log("Assalamualikum " + guest[R] + " you will be invite to wedding.\n\nThank You\n");
+}
+guest.splice(0, 2);
+console.log(guest);
