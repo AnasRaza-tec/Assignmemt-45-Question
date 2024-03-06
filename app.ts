@@ -1,6 +1,4 @@
-// Exercise on 8
-// Name : Muhammad Anas Raza
-// Date 18.2.2024
-let Raza : string = "I am Best Programer For Every Time";
-console.log(`${Raza}`);
-
+let Names : string  [] = ["janan", "zain", "saad"];
+console.log(Names[0]);
+console.log(Names[1]);
+console.log(Names[2]);
