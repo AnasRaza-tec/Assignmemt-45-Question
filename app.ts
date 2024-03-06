@@ -1,2 +1,5 @@
-import{ guest } from '../12Guest List/app'
-console.log(`we had fanilly invite diner ${guest.length} \n Thank you \n`);
+let language :string[] = ["urdu", "english", "farsi", "arbi", "spanish"];
+console.log("list of language");
+for(let top of language){
+console.log(top)
+}
