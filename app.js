@@ -1,4 +1,4 @@
-var quote = " A person who never made a mistake never tried anything new . ";
-var author = " Albert Einstein ";
-var massege = "".concat(author, " once said,  ").concat(quote);
-console.log(massege);
+var personName = "\n\t anasraza \t\n";
+console.log(personName);
+var stripped = personName.trim();
+console.log(stripped);

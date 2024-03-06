@@ -1,4 +1,4 @@
-let quote : string = " A person who never made a mistake never tried anything new . ";
-let author : string = " Albert Einstein ";
-let massege =`${author} once said,  ${quote}`;
-console.log(massege);
+let personName : string = "\n\t anasraza \t\n"; 
+console.log( personName);
+let stripped : string = personName.trim();
+console.log(stripped);
