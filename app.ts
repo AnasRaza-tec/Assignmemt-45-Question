@@ -1,6 +1,2 @@
-let places : string [] =  [ "karachi", "lahore", "rawalpindi", "islamabad","sawat"];
-console.log(`orignal `+ places);
-console.log(`copy ` + [...places].sort());
-console.log(`orignal `+ places);
-console.log(`copy `+ [...places].reverse());
-console.log(`orignal `+ places);
+import{ guest } from '../12Guest List/app'
+console.log(`we had fanilly invite diner ${guest.length} \n Thank you \n`);
