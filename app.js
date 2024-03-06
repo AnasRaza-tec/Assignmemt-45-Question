@@ -1,5 +1,2 @@
-var Name = ["janan", "zain", "saad"];
-var massege = "brave man";
-console.log(Name[0] + " " + massege);
-console.log(Name[1] + " " + massege);
-console.log(Name[2] + " " + massege);
+var transpotation = ["Mersedec G", "toyota Supera"];
+transpotation.map(function (items) { return console.log("I would like to own a ".concat(items)); });

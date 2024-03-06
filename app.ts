@@ -1,5 +1,3 @@
-let Name : string [] = ["janan","zain","saad"];
-let massege : string = "brave man";
-console.log(Name [0]+" "+ massege);
-console.log(Name [1]+" "+ massege);
-console.log(Name [2]+" "+ massege);
+let transpotation : string []= ["Mersedec G", "toyota Supera"];
+
+transpotation.map((items)=> console.log(`I would like to own a ${items}`));
